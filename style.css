@@ -366,7 +366,7 @@ body{
         position: relative;
         background-image: url('pic/home.png');
         background-attachment: fixed;
-        background-size:866.98px 640px ;
+        background-size:auto 100vh;
         background-position:center 0% ;
         width: 100vw;
         height: 100vh;
