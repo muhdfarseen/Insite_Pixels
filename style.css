@@ -355,6 +355,10 @@ body{
     opacity: 20%;
 }
 
+.stkicon{
+    width: 95px;
+}
+
 @media (max-width:1000px){
 
     .home{
@@ -374,7 +378,7 @@ body{
         width: 100vw;
         margin: auto;
         background: linear-gradient(270deg, #498dfa40 0%, #cc54f40e 100%);
-        border-radius: 8px;
+        border-radius:0px;
         font-family: 'Archivo';
         font-weight: 500;
         padding-left:30px ;
@@ -395,12 +399,17 @@ body{
     .nav-link:hover{
         color: #04CAF1 !important;
     }
+
+    .stkicon{
+        width: 50px;
+        margin-bottom:30px ;
+    }
     
     .homeheading{
         font-family: 'Archivo';
         font-style: normal;
         font-weight: 900;
-        font-size: 20px;
+        font-size: 24px;
         line-height: 26px;
         text-align: center;
         padding-top: 50px;
@@ -409,12 +418,12 @@ body{
     }
     
     .homedesc{
-        width: 60%;
+        width: 80%;
         margin: auto;
         font-family: 'Archivo';
         font-style: normal;
         font-weight: 300;
-        font-size: 10px;
+        font-size: 14px;
         
         /* or 30px */
         text-align: center;
@@ -456,14 +465,15 @@ body{
       }
     
     .homeofferline1{
-        font-weight: 700;
-        font-size: 10px;    
+        
+        font-weight: 600;
+        font-size:12px;    
         margin: 0%;
     }
     
     .homeofferline2{
-        font-weight:500;
-        font-size: 8px;
+        font-weight:300;
+        font-size: 12px;
     }
     
     .homeofferButton{
@@ -630,19 +640,21 @@ body{
     }
     
     .serv{
-        width: 90%;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin: auto;
+        width: 90vw;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
         display: flex;
         flex-wrap: wrap;
-        gap:10px;
+        gap:unset;
         
     }
 
     .track{
         width: calc(80vw/3);
         height: auto;
+        margin: 5px;
     }
     
     .seer{
