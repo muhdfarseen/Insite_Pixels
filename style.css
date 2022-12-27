@@ -403,8 +403,9 @@ body{
     }
 
     .stkicon{
-        width: 50px;
+        width: 100px;
         margin-bottom:30px ;
+        transform: rotate(-24.41deg);
     }
     
     .homeheading{
