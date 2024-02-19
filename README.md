@@ -1,3 +1,3 @@
 # Insite Pixels
 
-## Graphic design and Web design | development services
+## Graphic design and Web design | Branding | web development services
