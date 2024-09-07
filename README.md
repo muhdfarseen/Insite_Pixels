@@ -1,3 +1,3 @@
 # Insite Pixels Website
 
- > Graphic design | Branding | web development 
+ > Graphic design | UI UX | Branding | web development 
